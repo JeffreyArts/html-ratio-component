@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Ratio Component</title>
+    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./example.css">
+
+    <!-- Required -->
+    <!-- <link rel="stylesheet" href="./html-ratio-component.css"> -->
+    <script src="html-ratio-component.js"></script>
+</head>
+<body>
+    <section class="custom-container">
+        <div class="row border vertical-align" ratio="16x9">
+            <div class="col-xs-6">
+                <figure>
+                    <div class="image-container" ratio="4x3">
+                        <img src="https://source.unsplash.com/category/nature/400x300" alt="">
+                    </div>
+                    <figcaption>Ratio: 4x3</figcaption>
+                </figure>
+            </div>
+
+            <div class="col-xs-6">
+                <figure>
+                    <div class="image-container" ratio="4x3">
+                        <img src="https://source.unsplash.com/category/nature/404x300" alt="">
+                    </div>
+                    <figcaption>Ratio: 4x3</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-container {
+    padding: 50px;
+    width: 100vw;
+    display: inline-block;
+    max-width: 1024px;
+}
+
+.image-container {
+    background-color: #eee;
+}
+
+.border {
+    border: 5px solid #333;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+[ratio="16x9"] {
+    position: relative;
+
+    &:after {
+        content: "Ratio 16x9";
+        position: absolute;
+        bottom: -45px;
+        left: 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

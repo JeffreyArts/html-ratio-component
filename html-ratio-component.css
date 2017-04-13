@@ -1,0 +1,15 @@
+@keyframes htmlRatioCompnentNodeInserted {
+    from {
+        color: currentColor;
+    }
+    to {
+        color: currentColor;
+    }
+}
+
+*[ratio] {
+    -webkit-animation-duration: .001s;
+    animation-duration: .001s;
+    -webkit-animation-name: htmlRatioCompnentNodeInserted;
+    animation-name: htmlRatioCompnentNodeInserted;
+}
