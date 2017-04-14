@@ -1,6 +1,6 @@
 {
   "name": "html-ratio-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small javascript component for dynamicly resize domElements according a defined aspect ratio",
   "main": "html-ratio-component.js",
   "scripts": {

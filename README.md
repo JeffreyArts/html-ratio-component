@@ -5,7 +5,7 @@
 
 Include `html-ratio-component.js` at the bottom of your page, just before the ending `</body>` element.
 ```html
-<script src="node_modules/html-ratio-component/html-ratio-component.min.js"></script>
+<script src="html-ratio-component.min.js"></script>
 <!-- Or, when installed by npm -->
 <script src="node_modules/html-ratio-component/html-ratio-component.min.js"></script>
 ```
