@@ -1,5 +1,6 @@
 # HTML Ratio Component
 
+![alt tag](https://raw.githubusercontent.com/JeffreyArts/html-ratio-component/master/html-ratio-element.gif)
 
 ## Using
 
