@@ -2,6 +2,7 @@
 
 /* global document */
 
+var htmlRatioResizeTimeout = null;
 var htmlRatioComponentHelper = {
     initialize: function initialize(domElement) {
         domElement.initialized = true;
@@ -15,7 +16,10 @@ var htmlRatioComponentHelper = {
         domElement.style.height = height + "px";
     },
     documentResize: function documentResize() {
-        htmlRatioComponentHelper.initializeAll();
+        if (htmlRatioResizeTimeout) {
+            clearTimeout(htmlRatioResizeTimeout);
+        }
+        htmlRatioResizeTimeout = setTimeout(htmlRatioComponentHelper.initializeAll, 0);
     },
     initializeAll: function initializeAll() {
         var domElements = document.querySelectorAll("[ratio]");
