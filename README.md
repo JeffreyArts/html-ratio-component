@@ -24,6 +24,13 @@ When you have loaded the component you can use it as followed:
 ```
 Where the value of ratio can be anything as long as it are two numbers, divided by an 'x'.
 
+## Issues
+
+In some edge cases where you dynamicly add an element to your dom. The approriate triggers might not be triggered. Like when you dynamicly add an element with a ratio attribute to an element which has not have a width. The solution to this, is to manually fire the appropriate event to trigger it. You can do this via the following code.
+```js
+window.dispatchEvent(new Event("resize"));
+```
+
 ## Installing
 ```
  $ npm install html-ratio-component
