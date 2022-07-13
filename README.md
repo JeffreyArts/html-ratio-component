@@ -13,9 +13,9 @@ Include `html-ratio-component.js` at the bottom of your page, just before the en
 
 Optional: include `html-ratio-component.css` (this is only required when you dynamically add a component with the `ratio` attribute)
 ```html
-<link rel="stylesheet" href="html-ratio-component.min.css">
+<link rel="stylesheet" href="html-ratio-component.css">
 <!-- Or, when installed by npm -->
-<link rel="stylesheet" href="node_modules/html-ratio-component/html-ratio-component.min.css">
+<link rel="stylesheet" href="node_modules/html-ratio-component/html-ratio-component.css">
 ```
 
 When you have loaded the component you can use it as followed:
